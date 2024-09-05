@@ -6,7 +6,7 @@ final randomizer = Random();
 
 class DiceRoller extends StatefulWidget{
 
-  const DiceRoller({super.key})
+   const DiceRoller({super.key});
 
  // ignore: empty_constructor_bodies
  @override
@@ -31,7 +31,7 @@ return Column(
   children: [
 
 Image.asset(
-  'asstes/images/dice-$currentDiceRoll.png',
+  'assets/images/dice-$currentDiceRoll.png',
   width: 200,
 ),
 
